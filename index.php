@@ -14,6 +14,7 @@ $customer = query("SELECT * FROM data_customer")
 </head>
 <body>
     <h1>Data customer</h1>
+    <a href="tambah.php">Tambah data mahasiswa</a>
 
     <table border="1" cellpadding="10" cellspacing="0">
         <tr>
