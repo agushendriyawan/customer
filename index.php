@@ -33,7 +33,7 @@ $customer = query("SELECT * FROM data_customer")
                 <td><?= $row["tanggal"]; ?></td>
                 <td>
                     <a href="">edit</a>
-                    <a href="">delate</a>
+                    <a href="delate.php?id=<?= $row["id"]; ?>">delate</a>
                 </td>
             </tr>
     <?php endforeach; ?>

@@ -16,7 +16,7 @@ if (isset($_POST["submit"])) {
     } else {
         echo "
         <script>
-           alert('data berhasil di tambahkan')
+           alert('data gagal berhasil di tambahkan')
            document.location.href = 'index.php';
         </script>";
     }
@@ -44,15 +44,15 @@ if (isset($_POST["submit"])) {
         <ul>
             <li>
                 <label for="Username">Username</label>
-                <input type="text" name="Username">
+                <input type="text" name="Username" id = "Username" required>
             </li>
             <li>
                 <label for="no_hpp">No Hp</label>
-                <input type="text" name="no_hp">
+                <input type="text" name="no_hp" id = "no_hp" required>
             </li>
             <li>
                 <label for="tanggal">Tanggal</label>
-                <input type="date" name="tanggal">
+                <input type="date" name="tanggal" id = "tanggal" required>
             </li>
             <li>
                 <button type="submit" name="submit">Tambah Data</button>
